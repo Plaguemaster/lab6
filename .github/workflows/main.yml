@@ -2,9 +2,7 @@
 name: Solver_binary_files
 
 on:
-  push:
-    branches:
-      - main
+  [push]:
 
 jobs:
   test_usual_work:
